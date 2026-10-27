@@ -1,0 +1,41 @@
+# Dependencias
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Pruebas y cobertura
+/coverage
+
+# Salida de compilación de Next.js
+/.next/
+/out/
+/build
+/dist
+
+# Archivos de entorno y credenciales locales (NUNCA subir a git)
+.env
+.env*.local
+
+# Permitir explícitamente subir la plantilla de ejemplo
+!.env.example
+
+# Basura del sistema operativo y editores
+.DS_Store
+*.pem
+Thumbs.db
+__MACOSX/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# Registros y depuración
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
